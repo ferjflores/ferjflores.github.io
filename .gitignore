@@ -1,0 +1,17 @@
+# macOS
+.DS_Store
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+env/
+
+# Site cache
+_site
+.jekyll-cache
+
+# Local environment variables
+*.env

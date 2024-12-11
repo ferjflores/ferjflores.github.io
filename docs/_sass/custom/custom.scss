@@ -1,0 +1,18 @@
+.site-title {
+    flex-grow: 1;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    padding-top: $sp-3;
+    padding-bottom: $sp-3;
+    color: $body-heading-color;
+  
+    @include container;
+  
+    @include fs-4;
+  
+    @include mq(md) {
+      padding-top: $sp-2;
+      padding-bottom: $sp-2;
+    }
+  }
