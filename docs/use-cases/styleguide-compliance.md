@@ -84,5 +84,6 @@ some content here
 </details>
 
 ### Generating a linter configuration file from a styleguide
+<br>
 
-Want to contribute to this guide? Click here.
+Want to contribute to this guide? Click [here](https://github.com/Bain/ais-coding-assistants/issues).

@@ -1,7 +1,7 @@
 #logo: "/assets/Bain_and_Company_Logo.png" # Overridden in _includes/title.html
-#title: "DS & MLE Technical Delivery Standards" # Overridden in _includes/title.html
+#title: "AIS Coding Assistant Guidance" # Overridden in _includes/title.html
 favicon_ico: "/assets/favicon.ico"
-description: "Guide for delivering DS & MLE projects"
+description: "Guide for adoption of AI coding assistants"
 theme: 'just-the-docs'
 nav_enabled: true
 heading_anchors: true

@@ -12,7 +12,7 @@ See [home page](docs/index.md) for an overview of this repo.
 ## Contributing
 
 There are 2 main ways to contribute:
-### 1. [Raise an ISSUE](https://github.com/Bain/ais-dsmle-delivery-standards/issues)
+### 1. [Raise an ISSUE](https://github.com/Bain/ais-coding-assistants/issues)
 - To request content (new / updates), point out issues or raise topics for broader discussions. 
 - Click the link above or navigate to the Issues page for this repository and fill out the appropriate template.
 
