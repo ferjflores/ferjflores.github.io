@@ -44,7 +44,13 @@ some content here
 
 The sections below describe various strategies and tactics for using AI-powered coding assistants like GitHub Copilot to speed the auditing and revision of existing code for compliance with a styleguide or standards document.
 
-### Auto-fix what a linter can't
+### Fixing issues a linter detects but can't resolve
+
+Across languages, linters have varying degrees of ability to detect and resolve issues.
+
+Linters can only identify and remedy issues based on predefined static rules and pattern matching, whereas AI-powered tools can go beyond this by understanding (for lack of a better term) the program logic and desired behavior of a codebase in its broader context.
+
+One especially powerful way to use an AI-powered coding assistant is to run a linter like pylint or eslint and give the issues detected to the assistant so it can suggest or even apply remedies.
 
 <details>
 <summary>Accomplish this using GitHub Copilot</summary>
@@ -58,11 +64,20 @@ some content here
 some content here
 </details>
 
+### Identifying and/or fixing issues a linter or formatter cannot detect
+
 <details>
-<summary>Some thing here</summary>
+<summary>Accomplish this using GitHub Copilot</summary>
 
-Linters can only identify and remedy issues based on predefined static rules and pattern matching, whereas AI-powered tools can go beyond this by understanding (for lack of a better term) the program logic and desired behavior of a codebase in its broader context
-
+some content here
 </details>
+<br>
+<details>
+<summary>Accomplish this using Cursor AI</summary>
+
+some content here
+</details>
+
+### Generating a linter configuration file from a styleguide
 
 Want to contribute to this guide? Click here.
