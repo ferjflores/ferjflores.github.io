@@ -6,6 +6,11 @@ title: Styleguide Compliance
 
 # Styleguide Compliance
 
+---
+
+{% include legal_disclaimer.html %}
+---
+
 Whether writing or revising code for a client or for internal projects, adhering to a styleguide or code standards document is essential for maintaining consistency, readability, and quality in codebases.  
 
 Below are some tactical guidelines on using AI coding assistants for both the generation of new code and revision of existing code to meet a styleguide.
