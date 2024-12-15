@@ -1,5 +1,14 @@
 # ais-coding-assistants
-Guide for adoption of AI coding assistants
+
+
+Welcome to the AIS site to promote awareness and adoption of coding assistants for software development at Bain. Here you'll find:
+
+* Guides for how to use coding assistants for common use cases: unit testing, PR review, and coding style
+* Information on the current state of licensing and allowed use at Bain for client cases and internal work
+    * As of Dec 2024, Github Copilot has been approved by TSG for Orange level data (confidential/high risk)
+    * All other tools (eg., Cursor, Qodo) should be used only for Green level data (public, no risk), unless otherwise approved by client
+    * If in doubt, check with Bain legal on the permitted use of a coding assistant for internal or client work
+
 
 The content of this repository is presented at https://verbose-doodle-6kny6jr.pages.github.io/
 
