@@ -78,10 +78,6 @@ some content here
 some content here
 </details>
 
----
-
-### Generating a linter configuration file from a styleguide
-<br>
 
 ---
 
