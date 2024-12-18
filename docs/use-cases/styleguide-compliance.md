@@ -21,14 +21,14 @@ Below are some tactical guidelines on using AI coding assistants for both the ge
 
 ### Generating new code in compliance with a styleguide
 
-Using an AI coding assistant to generate new compliant code can boiled down to 3 main steps: 
+Using an AI coding assistant to generate new compliant code can boiled down to 4 main steps: 
 1. Set up relevant context.
 2. Prompt the tool for code generation.
 3. Manually review the code to ensure quality and styleguide compliance.
 4. Apply the suggested code with any necessary corrections.
 
 <details>
-<summary>Accomplish this using GitHub Copilot</summary>
+<summary>Accomplish this using GitHub Copilot in VS Code</summary>
 
 {% include context_for_gh_copilot.html %}
 some content here
@@ -49,7 +49,7 @@ Across languages, linters have varying degrees of ability to detect and resolve 
 One especially powerful way to use an AI-powered coding assistant is to run a linter like pylint or eslint and give the issues detected to the assistant so it can suggest or even apply remedies.
 
 <details>
-<summary>Accomplish this using GitHub Copilot</summary>
+<summary>Accomplish this using GitHub Copilot in VS Code</summary>
 
 some content here
 </details>
@@ -67,7 +67,7 @@ some content here
 Linters can only identify and remedy issues based on predefined static rules and pattern matching, whereas AI-powered tools can go beyond this by understanding (for lack of a better term) the program logic and desired behavior of a codebase in its broader context.
 
 <details>
-<summary>Accomplish this using GitHub Copilot</summary>
+<summary>Accomplish this using GitHub Copilot in VS Code</summary>
 
 some content here
 </details>
