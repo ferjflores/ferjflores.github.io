@@ -9,7 +9,7 @@ Welcome to the AIS site to promote awareness and adoption of coding assistants f
 # Overview
 
 
-Coding assistants are transforming software development, enhancing productivity, code quality, and collaboration. At Bain, we recognize the massive potential of these tools and are committed to empowering our teams with the best practices and resources to integrate themOur  into our workflows.
+Coding assistants are transforming software development, enhancing productivity, code quality, and collaboration. At Bain, we recognize the massive potential of these tools and are committed to empowering our teams with the best practices and resources to integrate them  into our workflows.
 
 This site endeavors to be your go-to hub for understanding and adopting coding assistants, providing guidance on their use for both internal projects and client engagements. Whether you're looking to accelerate unit testing, streamline code reviews, or maintain consistent coding styles, you'll find the resources you need right here.
 
