@@ -1,3 +1,9 @@
+---
+layout: default
+title: Access
+nav_order: 2
+---
+
 # Access to AI coding assistants
 
 ## Github Copilot
