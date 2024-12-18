@@ -10,6 +10,8 @@ title: Automatic PR Review
 
 This guide provides instructions for using GitHub Copilot as an assistant for reviewing pull requests (PRs). Although GitHub currently does not support using Copilot directly as a reviewer on a PR, there is a practical workaround: you can use the GitHub Copilot extension in Visual Studio Code. This approach allows you to leverage Copilot’s insights to analyze and summarize PR changes, identify potential issues, and suggest improvements.
 
+**Note**: GitHub plans to support adding GitHub Copilot as a reviewer directly through the GitHub UI in the future. Once this feature becomes generally available (GA), we will update this guide accordingly to include instructions for using it natively.
+
 ## Instructions
 
 ### Overview
@@ -85,17 +87,17 @@ Replace <PR_NUMBER> with the actual number of the pull request. This command cre
 
 3. **Ask Targeted Questions**: Break down your inquiries into smaller, more focused prompts:
 
-- *"Summarize the main functionality added or changed in this PR."*
-- *"Identify code segments that might introduce performance regressions or scalability issues."*
-- *"Check for potential library usage introduced and explain its purpose."*
-- *"Highlight any significant logic changes between oldFunction() and newFunction()."*
+    - *"Summarize the main functionality added or changed in this PR."*
+    - *"Identify code segments that might introduce performance regressions or scalability issues."*
+    - *"Check for potential library usage introduced and explain its purpose."*
+    - *"Highlight any significant logic changes between oldFunction() and newFunction()."*
 
-Targeted questions help Copilot focus on what matters most, making it easier to digest the output.  
+    Targeted questions help Copilot focus on what matters most, making it easier to digest the output.  
 
 4. **Iterate and Dive Deeper**: If Copilot flags a concern, follow up with more detailed questions:
 
-- *"Explain why the identified code segment might degrade performance and suggest alternatives."*
-- *"Which parts of the code handle user input, and how can we ensure robust validation?"*
+    - *"Explain why the identified code segment might degrade performance and suggest alternatives."*
+    - *"Which parts of the code handle user input, and how can we ensure robust validation?"*
 
 5. **Integrate Results into Your Review Process**: Use Copilot’s suggestions and analyses as a starting point. Combine them with your own expertise, testing, and additional tools to form a comprehensive review.
 
