@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Case examples
-nav_order: 1
+nav_order: 3
 ---
 
 # Coding Assistants in Action
