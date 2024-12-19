@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Overview
+title: Case examples
 nav_order: 1
 ---
 
