@@ -1,10 +1,10 @@
 ---
 layout: default
 parent: Use Cases
-title: Style guide Compliance
+title: Style Guide Compliance
 ---
 
-# Style guide Compliance
+# Style Guide Compliance
 
 ---
 
@@ -17,7 +17,7 @@ Whether writing or revising code for a client or for internal projects, adhering
 
 Below are some tactical guidelines on using AI coding assistants for both the generation of new code and revision of existing code to meet a style guide.
 
-## Suggested Ways To Use AI Coding Assistants for Style guide-compliant Code
+## Suggested Ways To Use AI Coding Assistants for Style Guide-compliant Code
 
 ### Generating new code in compliance with a style guide
 
@@ -30,7 +30,7 @@ Using an AI coding assistant to generate new compliant code can boiled down to 4
 #### <span style="font-size: 1.5em;">Accomplish this using GitHub Copilot in VS Code</span> ####
 
 1. Add the style guide as a file in your IDE.
-![Add Style guide](../../assets/style_guide_compliance/add_style_guide.gif)   
+![Add Style Guide](../../assets/style_guide_compliance/add_style_guide.gif)   
 2. Open the file you want to generate code in. 
 3. From your file, press Cmd/Ctrl + I to open the Editor Inline Chat with Copilot.
 4. Prompt Copilot to generate code. Tell it to do so in compliance with the style guide by attaching/adding the style guide as context.
@@ -91,7 +91,7 @@ Linters can only identify and remedy issues based on predefined static rules and
 #### <span style="font-size: 1.5em;">Accomplish this using GitHub Copilot in VS Code</span> ####
 
 1. Add the style guide as a file in your IDE.
-![Add Style guide](../../assets/style_guide_compliance/add_style_guide.gif)   
+![Add Style Guide](../../assets/style_guide_compliance/add_style_guide.gif)   
 2. Open the file you want to edit or review.
 3. Open the sidebar Copilot chat with Cmd/Ctrl + Shift + I or using the icon next to the Command Palette.
 ![Open Sidebar Copilot Chat](../../assets/style_guide_compliance/open_sidebar_copilot.gif)   
