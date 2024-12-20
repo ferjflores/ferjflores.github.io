@@ -29,11 +29,13 @@ Using an AI coding assistant to generate new compliant code can boiled down to 4
 
 #### <span style="font-size: 1.5em;">Accomplish this using GitHub Copilot in VS Code</span> ####
 
-1. Add the style guide as a file in your IDE.
+1. Add the style guide as a file in your IDE.<br><br>
+    Consider adding the style guide to a new folder in your project that will contain external files you wish to reference in chats with Copilot as reference.<br><br>
 ![Add Style Guide](../../assets/style_guide_compliance/add_style_guide.gif)   
 2. Open the file you want to generate code in. 
 3. From your file, press Cmd/Ctrl + I to open the Editor Inline Chat with Copilot.
-4. Prompt Copilot to generate code. Tell it to do so in compliance with the style guide by attaching/adding the style guide as context.
+4. Prompt Copilot to generate code. Tell it to do so in compliance with the style guide by attaching/adding the style guide as context.<br><br>
+    Ie, `Please create CRUD operations for a User model (id, first_name, last_name, email) using FastAPI. Please review the style guide #file:google_python_styleguide.md and write your code in compliance with it.`<br><br>
 ![Prompt with inline chat](../../assets/style_guide_compliance/create_new_file.gif)
 5. Review the generated code. Re-prompt Copilot for it to make changes or make necessary corrections manually.
 
@@ -55,15 +57,15 @@ One especially powerful way to use an AI-powered coding assistant is to run a li
 
 #### <span style="font-size: 1.5em;">Accomplish this using GitHub Copilot in VS Code</span> ####
 
-There are many ways you could accomplish this, but the below covers one potential way for linting a Python file with pylint.
+There are many ways you could accomplish this, but the below covers one potential way when linting a Python file with pylint.
 
 *Prerequisites*: An installed linter and a linter configuration file, like `.pylintrc`.
 1. Open the file you want to lint and resolve issues for.
 2. In the terminal, run your lint command, ie `pylint crud.py`.
 3. Copy the linting errors identified to your clipboard.
 4. Open an inline editor chat with Copilot with Cmd/Ctrl + I.
-5. Prompt Copilot to fix the linting errors and paste them in. 
-Ie, `The below are linting errors identified by pylint. Please fix them. Do not remove any lines of code without telling me.`
+5. Prompt Copilot to fix the linting errors and paste them in. <br><br>
+    Ie, `The below are linting errors identified by pylint. Please fix them. Do not remove any lines of code without telling me.`
 6. Accept the changes*.
 7. Repeat steps 2 - 6 as necessary.
 8. Review the changes made by Copilot, easily done using the side-by-side Diff Editor.
