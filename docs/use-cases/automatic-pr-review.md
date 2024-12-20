@@ -98,6 +98,10 @@ Replace <PR_NUMBER> with the actual number of the pull request. This command cre
 
     - *"Explain why the identified code segment might degrade performance and suggest alternatives."*
     - *"Which parts of the code handle user input, and how can we ensure robust validation?"*
+   
+   Continue to fine-tune your prompts if Copilot’s responses become less relevant:
+   > Please re-check this logic against the PR files only. Avoid referencing code outside the given PR.
+
 
 5. **Integrate Results into Your Review Process**: Use Copilot’s suggestions and analyses as a starting point. Combine them with your own expertise, testing, and additional tools to form a comprehensive review.
 
@@ -113,3 +117,15 @@ Leverage Copilot’s trained insights to catch subtle issues and improve the ove
 
 - **More Informed Decision-Making**:
 Gain a clearer understanding of the changes and how they align with project goals and quality standards.
+
+
+**Ensuring PR-Only Focus in Follow-Up Prompts:**  
+If Copilot starts to incorporate external assumptions or non-PR-related knowledge, gently guide it back to focus on the current PR. For instance:  
+
+> You’re drifting beyond the scope of the provided PR. Please limit your analysis strictly to the changes visible in the link I provided. Do not use any external code or documentation not present in the PR.
+
+These repeated reminders act as a fine-tuning mechanism in real-time, helping Copilot maintain its focus.
+
+Sometimes it will be necessary to restart all progress made and start a new chat from zero. If copilots continues driftig or starts [hallucinating](https://www.ibm.com/think/topics/ai-hallucinations) a good approach would be to use a larger prompt referring to the link PR and asking the questions on the same prompt:
+
+> Please review the pull request found at [Link to your PR]. Limit your analysis strictly to the content of this PR and do not make assumptions beyond what is directly visible in the code and associated documentation. Any questions related to a pr or pull request need to be answer using the pr link provide. Analyze all the code look for potential security vulnerabilities, check for potential bugs, suggest improvements, etc..
