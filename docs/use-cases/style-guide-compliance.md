@@ -103,7 +103,7 @@ Linters can only identify and remedy issues based on predefined static rules and
 
     Note that in the sidebar chat, you can give files as context by using the # symbol to tag them.
 
-    ![Open Sidebar Copilot Chat](../../assets/style_guide_compliance/review_for_style_guide_compliance.gif)   
+    ![Review code for compliance](../../assets/style_guide_compliance/review_for_style_guide_compliance.gif)   
 
 5. Consider the suggestions in the response. Consider asking Copilot to generate code to fix the issues or manually fix them yourself.
 
