@@ -112,7 +112,6 @@ Tips:
     Moreover, consider asking Copilot to review the style guide with you to identify such requirements that could be added to the new file.
 - Do not rely entirely on Copilot to achieve compliance with the style guide. Copilot can speed up your work here, but it is up to you to review suggestions and confirm that the code meets the requirements of the style guide.
 - Ask Copilot to source where (in the style guide) its suggestions are coming from. This is to ensure it does not provide you with hallucinated requirements.
-- 
 <br>
 <details>
 <summary>Accomplish this using Cursor AI</summary>
