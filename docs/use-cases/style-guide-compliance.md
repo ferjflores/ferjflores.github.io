@@ -44,7 +44,23 @@ Note: you can also generate code from the sidebar chat or using inline suggestio
 <details>
 <summary>Accomplish this using Cursor AI</summary>
 
-some content here
+1. **Add the style guide as a file in your IDE.**  
+   Consider placing it in a new folder (e.g., `docs/`) within your project so you can reference it easily during your Cursor AI sessions.  
+
+   ![Add Style Guide](../../assets/style_guide_compliance/cursor/add_style_guide.gif)
+
+2. **Open the file where you want to generate code.**  
+
+3. **Press <kbd>Cmd/Ctrl + Space</kbd> (or your configured shortcut) to open the Editor Inline Chat with Cursor AI.**  
+
+4. **Prompt Cursor AI to generate code.**  
+   Tell it to comply with the style guide by referencing the file. For example:
+![Prompt with inline chat](../../assets/style_guide_compliance/cursor/create_new_file.gif)
+
+5. **Review the generated code.**  
+- If the output doesn’t fully match your style guide or requirements, you can prompt Cursor AI again to revise it.  
+- Alternatively, make corrections manually in your editor.
+
 </details>
 
 ---
@@ -81,7 +97,24 @@ The below gif displays the steps above:
 <details>
 <summary>Accomplish this using Cursor AI</summary>
 
-some content here
+Below is an example workflow for linting a Python file using `pylint` and incorporating Cursor AI to remedy any issues:
+
+**_Prerequisites_**: Ensure a linter (like `pylint`) is installed, as well as a linter config file (e.g., `.pylintrc`).
+
+1. **Open the file you want to fix.**  
+2. **Run the linter in the terminal**, e.g.:
+   ```bash
+   pylint crud.py
+   
+3. Copy the errors reported by pylint.
+4. Open Cursor AI (via inline chat or the sidebar).
+5. Paste the issues into your prompt and ask Cursor to address them. For example:
+
+```These are the linting errors from pylint. Please fix them. Do not remove any lines of code without informing me.```
+6. Review the suggested changes and accept them if they’re correct, or ask for further revisions.
+7. Re-run pylint to make sure the issues are resolved.
+8. Repeat until all errors and warnings have been addressed.
+Tip: Always inspect changes before finalizing them in your codebase, which can be done through your editor’s diff view or version control system.
 </details>
 
 ---
@@ -116,7 +149,30 @@ Tips:
 <details>
 <summary>Accomplish this using Cursor AI</summary>
 
-some content here
+1. **Add the style guide file to your IDE**  
+   Place your style guide in a dedicated folder (e.g., `docs/`) so it’s easy for Cursor AI to reference.
+
+   ![Add Style Guide](../../assets/style_guide_compliance/cursor/add_style_guide.gif)   
+
+2. **Open the file** (e.g., `crud.py`) you wish to review or update.
+
+3. **Open the Cursor AI sidebar**  
+   Use your configured shortcut (e.g., <kbd>Cmd/Ctrl + Shift + I</kbd>) or click the AI icon near the Command Palette to start a chat session.
+
+   ![Open Sidebar Copilot Chat](../../assets/style_guide_compliance/cursor/open_sidebar_copilot.gif)  
+
+4. **Ask Cursor to locate style-guide violations**  
+   Include references to both your code file and the style guide by prefixing each with `#file:`. For example:
+`Please review #file:crud.py against #file:google_python_styleguide.md and point out any places that aren’t handled by pylint or black.`
+
+This ensures Cursor knows to cross-check the specific areas you’re concerned about.
+
+![Review code for compliance](../../assets/style_guide_compliance/review_for_style_guide_compliance.gif)   
+
+5. **Evaluate and apply the suggestions**  
+- If you want Cursor AI to generate fixes, simply ask it.  
+- Alternatively, you can apply corrections manually, especially if you want full control over the changes.
+
 </details>
 
 
