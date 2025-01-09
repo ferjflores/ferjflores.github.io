@@ -162,9 +162,9 @@ Tips:
 2. **Open the file** (e.g., `crud.py`) you wish to review or update.
 
 3. **Open the Cursor AI sidebar**  
-   Use your configured shortcut (e.g., <kbd>Cmd/Ctrl + Shift + I</kbd>) or click the AI icon near the Command Palette to start a chat session.
+   Use your configured shortcut (e.g., <kbd>Cmd/Ctrl + L</kbd>) or click the AI icon near the Command Palette to start a chat session.
 
-   ![Open Sidebar Copilot Chat](../../assets/style_guide_compliance/cursor/open_sidebar_copilot.gif)  
+   ![Open Sidebar Copilot Chat](../../assets/style_guide_compliance/cursor/open_sidebar_ai_chat.gif)  
 
 4. **Ask Cursor to locate style-guide violations**  
    Include references to both your code file and the style guide by prefixing each with `#file:`. For example:
@@ -172,7 +172,7 @@ Tips:
 
 This ensures Cursor knows to cross-check the specific areas you’re concerned about.
 
-![Review code for compliance](../../assets/style_guide_compliance/review_for_style_guide_compliance.gif)   
+![Review code for compliance](../../assets/style_guide_compliance/cursor/review_for_style_guide_compliance.gif)   
 
 5. **Evaluate and apply the suggestions**  
 - If you want Cursor AI to generate fixes, simply ask it.  
