@@ -51,7 +51,7 @@ Note: you can also generate code from the sidebar chat or using inline suggestio
 
 2. **Open the file where you want to generate code.**  
 
-3. **Press <kbd>Cmd/Ctrl + Space</kbd> (or your configured shortcut) to open the Editor Inline Chat with Cursor AI.**  
+3. **Press <kbd>Cmd/Ctrl + L</kbd> (or your configured shortcut) to open the Editor Inline Chat with Cursor AI.**  
 
 4. **Prompt Cursor AI to generate code.**  
    Tell it to comply with the style guide by referencing the file. For example:
@@ -115,6 +115,11 @@ Below is an example workflow for linting a Python file using `pylint` and incorp
 7. Re-run pylint to make sure the issues are resolved.
 8. Repeat until all errors and warnings have been addressed.
 Tip: Always inspect changes before finalizing them in your codebase, which can be done through your editor’s diff view or version control system.
+
+The below gif displays the steps above:
+
+![Use Copilot for Linting](../../assets/style_guide_compliance/cursor/pylinting.gif)   
+
 </details>
 
 ---
