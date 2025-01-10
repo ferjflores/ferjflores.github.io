@@ -41,8 +41,8 @@ Using an AI coding assistant to generate new compliant code can boiled down to 4
 
 Note: you can also generate code from the sidebar chat or using inline suggestions.
 <br>
-<details>
-<summary>Accomplish this using Cursor AI</summary>
+
+#### <span style="font-size: 1.5em;">Accomplish this using Cursor AI</span> ####
 
 
 1. **Add the style guide as a file in your IDE.**  
@@ -61,18 +61,6 @@ Note: you can also generate code from the sidebar chat or using inline suggestio
 5. **Review the generated code.**  
 - If the output doesn’t fully match your style guide or requirements, you can prompt Cursor AI again to revise it.  
 - Alternatively, make corrections manually in your editor.
-
-
-</details>
-
-
-<details>
-<summary>Expand for details</summary>
-
-**This is my text.**  
-This text includes *styled content*.
-
-</details>
 
 ---
 
