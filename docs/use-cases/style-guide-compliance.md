@@ -93,8 +93,8 @@ The below gif displays the steps above:
 
 
 <br>
-<details>
-<summary>Accomplish this using Cursor AI</summary>
+
+#### <span style="font-size: 1.5em;">Accomplish this using Cursor AI</span> ####
 
 Below is an example workflow for linting a Python file using `pylint` and incorporating Cursor AI to remedy any issues:
 
@@ -119,7 +119,7 @@ The below gif displays the steps above:
 
 ![Use Copilot for Linting](../../assets/style_guide_compliance/cursor/pylinting.gif)   
 
-</details>
+
 
 ---
 
