@@ -100,15 +100,16 @@ Below is an example workflow for linting a Python file using `pylint` and incorp
 
 **_Prerequisites_**: Ensure a linter (like `pylint`) is installed, as well as a linter config file (e.g., `.pylintrc`).
 
-1. **Open the file you want to fix.**  
-2. **Run the linter in the terminal**, e.g.:
+1. Open the file you want to fix.**  
+2. Run the linter in the terminal**, e.g.:
    ```bash
    pylint crud.py
+   ```
    
 3. Copy the errors reported by pylint.
 4. Open Cursor AI (via inline chat or the sidebar).
-5. Paste the issues into your prompt and ask Cursor to address them. For example:
-
+5. Paste the issues into your prompt and ask Cursor to address them.
+6. For example:
 ```These are the linting errors from pylint. Please fix them. Do not remove any lines of code without informing me.```
 6. Review the suggested changes and accept them if they’re correct, or ask for further revisions.
 7. Re-run pylint to make sure the issues are resolved.
@@ -150,8 +151,9 @@ Tips:
 - Do not rely entirely on Copilot to achieve compliance with the style guide. Copilot can speed up your work here, but it is up to you to review suggestions and confirm that the code meets the requirements of the style guide.
 - Ask Copilot to source where (in the style guide) its suggestions are coming from. This is to ensure it does not provide you with hallucinated requirements.
 <br>
-<details>
-<summary>Accomplish this using Cursor AI</summary>
+
+#### <span style="font-size: 1.5em;">Accomplish this using Cursor AI</span> ####
+
 
 1. **Add the style guide file to your IDE**  
    Place your style guide in a dedicated folder (e.g., `docs/`) so it’s easy for Cursor AI to reference.
@@ -177,7 +179,6 @@ This ensures Cursor knows to cross-check the specific areas you’re concerned a
 - If you want Cursor AI to generate fixes, simply ask it.  
 - Alternatively, you can apply corrections manually, especially if you want full control over the changes.
 
-</details>
 
 
 ---
